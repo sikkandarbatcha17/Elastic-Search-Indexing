@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\batcha-pt4528\\Desktop\\Zoho_Trainee\\ESSample\\ESSample.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\batcha-pt4528\\Desktop\\Zoho_Trainee\\ESSample\\ESSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\batcha-pt4528\\Desktop\\Zoho_Trainee\\ESSample\\ESSample.csproj",
+        "projectName": "ESSample",
+        "projectPath": "C:\\Users\\batcha-pt4528\\Desktop\\Zoho_Trainee\\ESSample\\ESSample.csproj",
+        "packagesPath": "C:\\Users\\batcha-pt4528\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\batcha-pt4528\\Desktop\\Zoho_Trainee\\ESSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\batcha-pt4528\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.15.2, )"
+            },
+            "Microsoft.Extensions.Logging.EventLog": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.15.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
